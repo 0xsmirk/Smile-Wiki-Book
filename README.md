@@ -7,3 +7,12 @@ Smile文库是一个面向二进制安全研究和逆向分析的知识库，涉
 ---
 
 由于传播、利用此文所提供的信息而造成的任何直接或者间接的后果及损失，均由使用者本人负责，文章作者不为此承担任何责任。
+
+## 0x03.项目搭建
+---
+
+```shell
+$ git clone https://github.com/smile-e3/Smile-Wiki-Book.git
+$ npm install
+$ npm run docs:dev
+```

@@ -14,5 +14,6 @@ Smile文库是一个面向二进制安全研究和逆向分析的知识库，涉
 ```shell
 $ git clone https://github.com/smile-e3/Smile-Wiki-Book.git
 $ npm install
-$ npm run docs:dev
+$ npm run docs:dev # dev开发版
+$ npm run docs:build # 编译完成的HTML位于当前项目的docs/.vuepress/dist/*
 ```

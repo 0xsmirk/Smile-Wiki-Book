@@ -17,3 +17,7 @@ $ npm install
 $ npm run docs:dev # dev开发版
 $ npm run docs:build # 编译完成的HTML位于当前项目的docs/.vuepress/dist/*
 ```
+
+## 0x04.线上地址
+
+Smile-Wiki-Book的线上部署地址为：`https://wiki.smile-space.com`

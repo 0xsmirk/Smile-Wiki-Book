@@ -1,13 +1,11 @@
 ---
-title: AFLplusplus模糊测试IOT二进制应用
+title: 模糊测试文件输入类型的IOT二进制应用
 ---
 ## 0x00.前言
 
-> **PS:并非所有的crash都可以构造成POC/EXP**
+> - **AFLplusplus基于文件输入输出类型的IOT二进制应用**
+> - **PS:并非所有的crash都可以构造成POC/EXP**
 > - 参考链接:https://blog.attify.com/fuzzing-iot-devices-part-1/
-> - 参考链接:https://blog.attify.com/fuzzing-iot-binaries-with-afl-part-ii/
-
-Fuzzing是目前漏洞挖掘比较热门和常用的漏洞挖掘技巧，之前的一篇文章已经给大家介绍了几个IOT Fuzzing常用的框架，这里主要针对前面提到的框架进行详细的阐述。
 
 ## 0x01.AFL++
 
@@ -150,4 +148,3 @@ pwndbg> target remote :9999
 ![](https://img.smile-space.com/20220504163526.png)
 
 这是`R0`寄存器的值加上`#20`地址无法访问，造成了段错误，因此这个是一个不可以被利用的`crash`。
-

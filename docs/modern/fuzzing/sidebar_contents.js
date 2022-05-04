@@ -2,7 +2,7 @@
  * @Description: 模糊测试二级目录
  * @Author: smile
  * @Date: 2022-05-03 15:45:07
- * @LastEditTime: 2022-05-04 14:07:52
+ * @LastEditTime: 2022-05-04 23:37:32
  * @LastEditors: smile
  */
 module.exports = [
@@ -12,6 +12,7 @@ module.exports = [
 		collapsable: true,
 		children:[
 			"/modern/fuzzing/AFLplusplus/aflplusplus_iot_binary",
+			"/modern/fuzzing/AFLplusplus/模糊测试网络套接字类型的IOT二进制应用"
 		]
 	},
 ];

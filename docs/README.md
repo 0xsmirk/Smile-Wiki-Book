@@ -13,13 +13,6 @@ preactionBtn:
   type: primary
   ghost: true
   size: large
-features:
-- title: 实用
-  details: 真实实战
-- title: 详细
-  details: 一条龙服务
-- title: 开源
-  details: 自由搭建
 
 head: [
     ['link', { rel: 'icon', href: '/img/smile_icon.png' }],

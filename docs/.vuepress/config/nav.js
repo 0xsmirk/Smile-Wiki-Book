@@ -11,6 +11,15 @@ module.exports = [
         link: '/',
     },
     {
+        text: '车联网安全',
+        items: [
+            {
+                text: '汽车固件逆向',
+                link: '/car/firmware/',
+            }
+        ]
+    },
+    {
         text: '逆向分析',
         items: [
             {

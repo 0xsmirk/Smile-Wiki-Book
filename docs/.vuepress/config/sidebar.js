@@ -17,4 +17,5 @@ module.exports = {
     '/binary/iot': require('../../binary/iot/sidebar_contents'),
     '/modern/fuzzing': require('../../modern/fuzzing/sidebar_contents'),
     '/modern/sym_execution': require('../../modern/sym_execution/sidebar_contents'),
+    '/car/firmware':require('../../car/firmware/sidebar_contents.js')
 };
